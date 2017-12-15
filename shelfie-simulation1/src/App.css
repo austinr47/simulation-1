@@ -1,0 +1,98 @@
+/* //simulation core 22C-2 */
+.dark-red-bgc {
+  background-color: #ab2a19;
+}
+
+.main {
+  /* simulation core 25F and 27G */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  min-height: 800px;
+  min-width: 655px;
+}
+
+.main-header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  /* simulation core 27C */
+  justify-content: center;
+  /* simulation core 27D */
+  align-items: center;
+}
+
+.header-content {
+  width: auto;
+  height: auto;
+  position: relative;
+  left: -165px;
+  display: block;
+}
+
+.header-logo {
+  /* simulation core 25C */
+  position: relative;
+  top: 13px;
+  /* simulation core 24C */
+  margin-right: 10px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.white {
+  color: #fff;
+}
+
+.header-text {
+  font-size: 30px;
+}
+
+.open-sans, .open-sans-bold {
+  font-family: Open Sans,sans-serif;
+}
+
+.open-sans-bold {
+  /* simulation core 23D */
+  font-weight: 700;
+}
+
+.light-red-bgc {
+  /* simulation core 23E */
+  background-color: #d34735;
+}
+
+.button-container {
+  width: 500px;
+  height: 60px;
+  margin-bottom: 20px;
+  /* simulation core 24D */
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  /* simulation core 27F */
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.main-buttons {
+  position: relative;
+  left: -110px;
+}
+
+.bin-header {
+  /* display: inline-block; */
+  background: #d34735;
+}
+
